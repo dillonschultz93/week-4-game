@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Game</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/skeleton.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Rozha+One" rel="stylesheet">
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h1 class="main-heading">Crystal Game</h1>
+                <hr>
+            </div>
+        </div>
+
+        <!-- RULES SECTION -->
+
+        <div class="row">
+            <div class="twelve columns rules-container">
+                <h3 class="rules-heading">Rules</h3>
+                <ul class="rules-list">
+                    <li>You will be given a random number at the start of the game</li>
+                    <li>The are four crystals below. By clicking on a crystal you will add a specific amount of points to</li>
+                    <li>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number</li>
+                    <li>The value of each crystal is hidden from you until you click on it</li>
+                    <li>Each time when the game starts, the game will change values of each crystal</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <!-- VALUE SECTION -->
+            <div class="nine columns value-container">
+                <h4 class="values-heading">Match...</h4>
+                <p id="value">23</p>
+            </div>
+            <!-- SCORE KEEPING SECTION -->
+            <div class="three columns score-container">
+                <h4 class="score">Wins: <span id="wins"></span></h4>
+                <h4 class="score">Losses: <span id="losses"></span></h4>
+            </div>
+        </div>
+        <!-- GEMS SECTION -->
+        <div class="row gem-container">
+            <div class="three columns">
+                <img src="assets/images/gem-1.png" alt="Blue gem" class="u-full-width">
+            </div>
+            <div class="three columns">
+                <img src="assets/images/gem-1.png" alt="Blue gem" class="u-full-width">
+            </div>
+            <div class="three columns">
+                <img src="assets/images/gem-1.png" alt="Blue gem" class="u-full-width">
+            </div>
+            <div class="three columns">
+                <img src="assets/images/gem-1.png" alt="Blue gem" class="u-full-width">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
