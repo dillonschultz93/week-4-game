@@ -1,0 +1,94 @@
+/*== TYPOGRAPHY ======================================================*/
+.main-heading {
+    font-family: 'Rozha One', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 7em;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+}
+
+.rules-heading {
+    font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2em;
+    color: #515151;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.rules-list {
+    font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.2em;
+    color: #515151;
+    font-weight: 200;
+}
+
+.values-heading {
+    font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+#value {
+    font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.score {
+    font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+/*== STYLES ==========================================================*/
+
+/*Body styles*/
+body {
+    background-image: url(../images/halftone-yellow.png);
+}
+
+/*Heading styles*/
+hr {
+    border-top: 1px solid #fff;
+}
+
+/*Rules styling*/
+.rules-container {
+    border: 2px solid #515151;
+    border-radius: 10px;
+}
+
+.rules-list {
+    padding: 10px 20px 5px 20px;
+}
+
+.rules-list li {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+/*Value styles*/
+.value-container {
+    background-color: #99c5fd;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/*Score keeping styles*/
+.score-container {
+    margin-top: 50px;
+    border: 2px solid #99c5fd;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*Gems styles*/
+.gem-container {
+    margin-top: 50px;
+}
+
+/*== MEDIA QUERIES ===================================================*/
