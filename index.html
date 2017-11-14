@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Barlow|Rozha+One" rel="stylesheet">
 
     <!-- JAVASCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </head>
@@ -24,9 +25,7 @@
                 <hr>
             </div>
         </div>
-
         <!-- RULES SECTION -->
-
         <div class="row">
             <div class="twelve columns rules-container">
                 <h3 class="rules-heading">Rules</h3>
@@ -42,8 +41,8 @@
         <div class="row">
             <!-- VALUE SECTION -->
             <div class="nine columns value-container">
-                <h4 class="values-heading">Match...</h4>
-                <p id="value">23</p>
+                <h4 class="values-heading">Match:</h4>
+                <p id="number-to-guess"></p>
             </div>
             <!-- SCORE KEEPING SECTION -->
             <div class="three columns score-container">
@@ -54,16 +53,28 @@
         <!-- GEMS SECTION -->
         <div class="row gem-container">
             <div class="three columns">
-                <img src="assets/images/gem-1.png" alt="Blue gem" class="u-full-width">
+                <img src="assets/images/gem-1.svg" alt="Blue gem" class="u-full-width gem-image" id="gem-1">
             </div>
             <div class="three columns">
-                <img src="assets/images/gem-1.png" alt="Blue gem" class="u-full-width">
+                <img src="assets/images/gem-2.svg" alt="Blue gem" class="u-full-width gem-image" id="gem-2">
             </div>
             <div class="three columns">
-                <img src="assets/images/gem-1.png" alt="Blue gem" class="u-full-width">
+                <img src="assets/images/gem-3.svg" alt="Blue gem" class="u-full-width gem-image" id="gem-3">
             </div>
             <div class="three columns">
-                <img src="assets/images/gem-1.png" alt="Blue gem" class="u-full-width">
+                <img src="assets/images/gem-4.svg" alt="Blue gem" class="u-full-width gem-image" id="gem-4">
+            </div>
+        </div>
+        <!-- TOTAL SECTION -->
+        <div class="row total-container">
+            <div class="twelve columns">
+                <h4 class="total-heading">Your total score is:</h4>
+                <p id="total"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <button class="u-full-width" id="reset">Reset</button>
             </div>
         </div>
     </div>
