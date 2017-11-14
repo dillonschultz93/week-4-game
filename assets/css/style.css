@@ -31,7 +31,7 @@
     text-align: center;
 }
 
-#value {
+#number-to-guess {
     font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
     font-size: 2em;
     font-weight: 400;
@@ -42,6 +42,22 @@
 .score {
     font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
     font-size: 1.3em;
+    text-align: center;
+}
+
+.total-heading {
+    font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+#total {
+    font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: #fff;
     text-align: center;
 }
 /*== STYLES ==========================================================*/
@@ -90,5 +106,28 @@ hr {
 .gem-container {
     margin-top: 50px;
 }
+
+/*Total styles*/
+.total-container {
+    background-color: #99c5fd;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Button styles*/
+#reset {
+    margin-bottom: 150px;
+    border: 2px solid #fff;
+    font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+#reset:hover {
+    background-color: #fff;
+    color: #515151;
+}
+
 
 /*== MEDIA QUERIES ===================================================*/
