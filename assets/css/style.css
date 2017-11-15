@@ -4,7 +4,7 @@
     font-size: 7em;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #fff;
+    color: #9ac6fb;
 }
 
 .rules-heading {
@@ -64,18 +64,19 @@
 
 /*Body styles*/
 body {
-    background-image: url(../images/halftone-yellow.png);
+    background-image: url(../images/memphis-colorful.png);
 }
 
 /*Heading styles*/
 hr {
-    border-top: 1px solid #fff;
+    border-top: 3px solid #9ac6fb;
 }
 
 /*Rules styling*/
 .rules-container {
-    border: 2px solid #515151;
+    border: 2px solid #99c5fd;
     border-radius: 10px;
+    background-color: #fff;
 }
 
 .rules-list {
@@ -100,6 +101,7 @@ hr {
     border: 2px solid #99c5fd;
     border-radius: 10px;
     padding: 10px;
+    background-color: #fff;
 }
 
 /*Gems styles*/
@@ -118,15 +120,15 @@ hr {
 /*Button styles*/
 #reset {
     margin-bottom: 150px;
-    border: 2px solid #fff;
+    border: 2px solid #9ac6fb;
     font-family: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 1.3em;
-    color: #fff;
+    font-size: 1em;
+    color: #515151;
 }
 
 #reset:hover {
-    background-color: #fff;
-    color: #515151;
+    background-color: #9ac6fb;
+    color: #fff;
 }
 
 
