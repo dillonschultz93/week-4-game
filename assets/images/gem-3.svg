@@ -3,19 +3,36 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#8455A2;}
+	.st0{fill:#FFFFFF;}
 	.st1{fill:#9670B1;}
 	.st2{fill:#8A5EA7;}
-	.st3{fill:#77469C;}
-	.st4{fill:none;stroke:#FFFFFF;stroke-width:2.68;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:#8455A2;}
+	.st4{fill:#77469C;}
 </style>
-<polygon class="st0" points="158,100.5 100,201 42,100.5 100,0 "/>
-<polygon class="st1" points="100,0 65.9,100.5 134.1,100.5 "/>
-<polygon class="st2" points="100,201 134.1,100.5 65.9,100.5 "/>
-<polygon class="st0" points="100,0 65.9,100.5 42,100.5 "/>
-<polygon class="st0" points="134.1,100.5 158,100.5 100,0 "/>
-<polygon class="st3" points="42,100.5 65.9,100.5 100,201 "/>
-<polygon class="st3" points="158,100.5 134.1,100.5 100,201 "/>
-<line class="st4" x1="81.2" y1="95.9" x2="84.2" y2="82.7"/>
-<line class="st4" x1="86.2" y1="74.2" x2="93.2" y2="43.7"/>
+<g>
+	<polygon class="st0" points="68.6,97 100,4.6 131.4,97 	"/>
+	<path class="st1" d="M100,9.2l29.3,86.4H70.7L100,9.2 M100,0L66.6,98.5h66.9L100,0L100,0z"/>
+</g>
+<g>
+	<polygon class="st0" points="68.6,102 131.4,102 100,194.4 	"/>
+	<path class="st2" d="M129.3,103.4L100,189.8l-29.3-86.4H129.3 M133.4,100.5L133.4,100.5L133.4,100.5z M133.4,100.5H66.6L100,199
+		L133.4,100.5L133.4,100.5z"/>
+</g>
+<g>
+	<polygon class="st0" points="43.7,97 91.8,13.7 63.6,97 	"/>
+	<path class="st3" d="M85.7,27.3L62.5,95.6H46.3L85.7,27.3 M98,0L41.2,98.5h23.4L98,0L98,0z"/>
+</g>
+<g>
+	<polygon class="st0" points="136.4,97 108.2,13.7 156.3,97 	"/>
+	<path class="st3" d="M114.3,27.3l39.4,68.2h-16.2L114.3,27.3 M102,0l33.4,98.5h23.4L102,0L102,0z"/>
+</g>
+<g>
+	<polygon class="st0" points="43.7,102 63.6,102 91.8,185.3 	"/>
+	<path class="st4" d="M62.5,103.4l23.2,68.2l-39.4-68.2H62.5 M64.6,100.5H41.2L98,199L64.6,100.5L64.6,100.5z"/>
+</g>
+<g>
+	<polygon class="st0" points="136.4,102 156.3,102 108.2,185.3 	"/>
+	<path class="st4" d="M153.7,103.4l-39.4,68.2l23.2-68.2H153.7 M158.8,100.5L158.8,100.5L158.8,100.5z M158.8,100.5h-23.4L102,199
+		L158.8,100.5L158.8,100.5z"/>
+</g>
 </svg>

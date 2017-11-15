@@ -3,19 +3,27 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#6EA8AE;}
-	.st1{fill:#5EC7CF;}
-	.st2{fill:#A2DBE0;}
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#A2DBE0;}
+	.st2{fill:#6EA8AE;}
 	.st3{fill:#678589;}
-	.st4{fill:none;stroke:#FFFFFF;stroke-width:3.1466;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
-<polygon class="st0" points="35.7,162.3 35.7,37.7 100,0 164.3,37.7 164.3,162.3 100,200 "/>
-<polygon class="st1" points="135.7,152.3 100,173.2 64.3,152.3 64.3,47.7 100,26.8 135.7,47.7 "/>
-<polygon class="st2" points="64.3,47.7 35.7,37.7 100,0 100,26.8 "/>
-<polygon class="st0" points="100,0 164.3,37.7 135.7,47.7 100,26.8 "/>
-<polygon class="st3" points="164.3,37.7 164.3,162.3 100,200 100,173.2 135.7,152.3 135.7,47.7 "/>
 <g>
-	<line class="st4" x1="102" y1="35.3" x2="93.3" y2="40.3"/>
-	<line class="st4" x1="88.3" y1="43.3" x2="73.1" y2="52.2"/>
+	<polygon class="st0" points="38.8,37 97.4,2.6 97.4,25.7 63.4,45.6 	"/>
+	<path class="st1" d="M96,5.2v19.6L63.3,43.9l-20.9-7.3L96,5.2 M98.9,0L35.3,37.3l28.3,9.9l35.3-20.7V0L98.9,0z"/>
+</g>
+<g>
+	<polygon class="st0" points="102.6,25.7 102.6,2.6 161.2,37 136.6,45.6 	"/>
+	<path class="st2" d="M104,5.2l53.6,31.4l-20.9,7.3L104,24.8V5.2 M101.1,0v26.5l35.3,20.7l28.3-9.9L101.1,0L101.1,0z"/>
+</g>
+<g>
+	<path class="st0" d="M102.6,174.3l34.6-20.2c0.5-0.3,0.7-0.8,0.7-1.3V50.4l25.3-8.9v120.3l-60.6,35.6V174.3z"/>
+	<path class="st3" d="M161.7,43.6V161L104,194.8v-19.6l33.8-19.8c0.9-0.5,1.5-1.5,1.5-2.6V51.4L161.7,43.6 M164.7,39.4l-28.3,9.9
+		v103.5l-35.3,20.7V200l63.6-37.3V39.4L164.7,39.4z"/>
+</g>
+<g>
+	<path class="st0" d="M36.8,161.9V41.5l25.3,8.9v102.4c0,0.5,0.3,1,0.7,1.3l34.6,20.2v23.1L36.8,161.9z"/>
+	<path class="st2" d="M38.3,43.6l22.4,7.8v101.4c0,1.1,0.6,2,1.5,2.6L96,175.2v19.6L38.3,161V43.6 M35.3,39.4v123.3L98.9,200v-26.5
+		l-35.3-20.7V49.3L35.3,39.4L35.3,39.4z"/>
 </g>
 </svg>
