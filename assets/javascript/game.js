@@ -37,8 +37,6 @@ $(document).ready(function() {
 
     // == FUNCTIONS & LOGIC ==========================================
 
-    // -- Initial Game State -----------------------------------------
-
     //Display the number the the user must total to
     $("#number-to-guess").text(total);
 
