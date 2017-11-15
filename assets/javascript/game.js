@@ -9,7 +9,7 @@ $(document).ready(function() {
     var fourthGemValue = Math.floor((Math.random() * 12) + 1);
 
     //Randomly generates a number that the user must total up to
-    var total = Math.floor((Math.random() * 100) + 12);
+    var total = Math.floor((Math.random() * 120) + 19);
 
     //Score keeping
     var userGuess = 0;
