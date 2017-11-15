@@ -3,13 +3,13 @@ $(document).ready(function() {
     // == GLOBAL VARIABLES ===========================================
 
     //Randomly generates a number for each gem
-    var firstGemValue = Math.floor(Math.random() * 50);
-    var secondGemValue = Math.floor(Math.random() * 50);
-    var thirdGemValue = Math.floor(Math.random() * 50);
-    var fourthGemValue = Math.floor(Math.random() * 50);
+    var firstGemValue = Math.floor((Math.random() * 12) + 1);
+    var secondGemValue = Math.floor((Math.random() * 12) + 1);
+    var thirdGemValue = Math.floor((Math.random() * 12) + 1);
+    var fourthGemValue = Math.floor((Math.random() * 12) + 1);
 
     //Randomly generates a number that the user must total up to
-    var total = Math.floor(Math.random() * 100);
+    var total = Math.floor((Math.random() * 100) + 12);
 
     //Score keeping
     var userGuess = 0;
@@ -70,11 +70,11 @@ $(document).ready(function() {
         userGuess = 0;
         $("#total").text(userGuess);
 
-        firstGemValue = Math.floor(Math.random() * 50);
-        secondGemValue = Math.floor(Math.random() * 50);
-        thirdGemValue = Math.floor(Math.random() * 50);
-        fourthGemValue = Math.floor(Math.random() * 50);
-        total = Math.floor(Math.random() * 100);
+        firstGemValue = Math.floor((Math.random() * 12) + 1);
+        secondGemValue = Math.floor((Math.random() * 12) + 1);
+        thirdGemValue = Math.floor((Math.random() * 12) + 1);
+        fourthGemValue = Math.floor((Math.random() * 12) + 1);
+        total = Math.floor((Math.random() * 100) + 12);
         $("#number-to-guess").text(total);
     }
 });
