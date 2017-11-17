@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    // == GLOBAL VARIABLES ===========================================
+    // == GLOBAL VARIABLES =====================================================
 
     //Randomly generates a number for each gem
     var firstGemValue = Math.floor((Math.random() * 12) + 1);
@@ -35,7 +35,7 @@ $(document).ready(function() {
         reset();
     });
 
-    // == FUNCTIONS & LOGIC ==========================================
+    // == FUNCTIONS & LOGIC ====================================================
 
     //Display the number the the user must total to
     $("#number-to-guess").text(total);
@@ -65,7 +65,8 @@ $(document).ready(function() {
         }
     }
 
-    //Reset function that resets the userGuess to zero and reassigns new values to the gems
+    //Reset function that resets the userGuess to zero and reassigns new values
+    //to the gems
     function reset() {
         userGuess = 0;
         $("#total").text(userGuess);
